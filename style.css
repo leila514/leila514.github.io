@@ -1,0 +1,62 @@
+body{/*title backgeround*/
+  background-image:url("https://img.freepik.com/premium-photo/tablecloth_127657-12720.jpg");
+  background-size:cover;
+}
+
+#text{ /*title*/
+  font-size:100px;
+  font-weight:bold;
+  text-align:center;
+  margin-top:70px;
+  text-shadow: 4px 8px 6px white;
+  color:#270607;
+  font-family: "Comic Sans MS", sans-serif;
+}
+@keyframes ginger{
+  0%{
+    position:absolute;
+  top:310px;
+  left:-5px;
+    
+  }
+  50%{
+    transform:translateX(2000px);
+    animation-delay:3s;
+  }
+  100%{
+    animation-delay:3s;
+    transform:rotateY(180deg);
+    
+  }
+}
+#gingerbred{
+  animation-name:ginger;
+  animation-duration:5s;
+  animation-directon:alternate;
+  animation-iteration-count:infinite;
+  background-image:url("https://png.pngtree.com/png-vector/20240614/ourmid/pngtree-happy-gingerbread-man-running-fast-png-image_12716451.png");
+  background-repeat:no-repeat;
+  position:absolute;
+  top:310px;
+  left:5px;
+  width:500px;
+  height:500px;
+  
+}
+
+button{
+      position:absolute;
+      top: 223px;
+      left:619px;
+      width:215px;
+      height:60px;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 10px 10px 2px brown;
+      color:brown;
+  font-size:30px;
+  font-family: "Comic Sans MS", sans-serif;}
+button:active{
+      font-size:25px;
+      color:yellow;
+      box-shadow: 10px 10px 2px orange;
+  font-family: "Comic Sans MS", sans-serif;}

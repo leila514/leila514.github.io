@@ -1,0 +1,33 @@
+body{
+  background-image:url("https://easyrenovation.ca/wp-content/uploads/2024/09/Benefits-of-Wood-Counterparts-2-1.jpg");
+
+}
+
+#gingerbreadraw{
+  position:absolute;
+  top:-30px
+}
+
+#addingredients{
+  width:230px;
+  height:70px;
+  position:absolute;
+  top:180px;
+  left:100px;
+  font-size:1rem;
+}
+
+#previous{
+  position:absolute;
+  top:180px;
+  left:370px;
+  width:300px;
+  height:70px;
+  font-size:1rem;
+}
+#previous:active{
+  width:310px;
+  height:80px;
+  color:red;
+  background-color:white;
+}

@@ -1,0 +1,108 @@
+body{
+  background-image:url("https://easyrenovation.ca/wp-content/uploads/2024/09/Benefits-of-Wood-Counterparts-2-1.jpg");
+    background-size:cover;
+}
+@keyframes fadeout{
+  90%{
+    opacity:1;
+    
+  }
+  100%{
+    opacity:0;
+    
+  }
+}
+#gingerbreadcooked{
+  position:absolute;
+  animation-name:fadeout;
+  animation-duration:5s;
+  animation-fill-mode:forwards;
+  animation-iteration-count:1;
+  
+}
+
+
+@keyframes rotatehandz{
+  100%{
+    transform:rotate(10deg);
+    
+  }
+}
+#righthand{
+  position:absolute;
+  top:0px;
+  animation-name:rotatehandz;
+  animation-duration:1s;
+  animation-iteration-count:6;
+  animation-direction:alternate;
+}
+
+@keyframes rotatehandz2{
+  100%{
+    transform:rotate(-10deg);
+    
+  }
+}
+#lefthand{
+  position:absolute;
+  top:0px;
+  left:50px;
+  animation-name:rotatehandz2;
+  animation-duration:1s;
+  animation-iteration-count:6;
+  animation-direction:alternate;
+}
+
+#storytext{
+position:absolute;
+top:0px;
+font-size:3rem;
+background-color:white;
+}
+
+@keyframes fadein{
+  90%{
+    opacity:0;
+    
+  }
+  100%{
+    opacity:1;
+    
+  }
+}
+#decorated{
+  opacity:0;
+  animation-name:fadein;
+  animation-duration:5s;
+  animation-fill-mode:forwards;
+  animation-iteration-count:1;
+}
+
+#next{
+  position:absolute;
+  top:60px;
+  left:10px;
+  width:350px;
+  height:30px;
+  font-size:1rem;
+}
+#previous{
+  position:absolute;
+  top:60px;
+  left:370px;
+  width:350px;
+  height:30px;
+  font-size:1rem;
+}
+#next:active{
+  width:360px;
+  height:40px;
+  color:red;
+  background-color:white;
+}
+#previous:active{
+  width:360px;
+  height:40px;
+  color:red;
+  background-color:white;
+}

@@ -1,0 +1,76 @@
+body{
+  background-image:url("https://t4.ftcdn.net/jpg/01/99/98/49/360_F_199984998_TgrYGeWNxIOy8JdXSFC7ByX0hyDB11zK.jpg");
+    background-repeat:no-repeat;
+  background-size:cover;
+}
+
+@keyframes fadeout{
+  90%{
+    opacity:1;
+    
+  }
+  100%{
+    opacity:0;
+  }
+}
+#gingerbreadraw{
+  position:absolute;
+  animation-fill-mode:forwards;
+  animation-name:fadeout;
+  animation-duration:3s;
+  
+}
+
+@keyframes fadein {
+  90%{
+    opacity:0;
+    
+  }
+  100%{
+    opacity:1;
+  }
+}
+#gingerbreadcooked{
+  position:absolute;
+  opacity:0;
+  animation-fill-mode:forwards;
+  animation-duration:3s;
+  animation-name:fadein;
+}
+
+#storytext{
+  position:absolute;
+  font-size:3rem;
+  background-color:white;
+  width:520px;
+  height:65px;
+}
+
+#next{
+  position:absolute;
+  top:80px;
+  left:10px;
+  width:350px;
+  height:30px;
+  font-size:1rem;
+}
+#previous{
+  position:absolute;
+  top:80px;
+  left:370px;
+  width:350px;
+  height:30px;
+  font-size:1rem;
+}
+#next:active{
+  width:360px;
+  height:40px;
+  color:red;
+  background-color:white;
+}
+#previous:active{
+  width:360px;
+  height:40px;
+  color:red;
+  background-color:white;
+}

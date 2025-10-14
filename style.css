@@ -1,75 +1,62 @@
-body{
-  background-image:url("https://cdn.dribbble.com/userupload/10090129/file/original-4a9356dc6fa84c62947182c21f71f7d3.jpg");
-  background-size:100%;
-}
-@keyframes moveright {
-  100%{
-    transform:translateX(400px);
-  }
-}
-#granny{
-  animation-name:moveright;
-  animation-duration:10s;
-  animation-iteration-count:1;
-  position:absolute;
-  top:235px;
-  right:460px;
-  z-index:2;
-  animation-fill-mode:forwards;
+body{/*title backgeround*/
+  background-image:url("https://img.freepik.com/premium-photo/tablecloth_127657-12720.jpg");
+  background-size:cover;
 }
 
-#storytext{
-  font-size:50px;
-  width:100%;
-  position:absolute;
-  left:5px;
-  top:5px;
-  background-color:white;
+#text{ /*title*/
+  font-size:100px;
+  font-weight:bold;
+  text-align:center;
+  margin-top:70px;
+  text-shadow: 4px 8px 6px white;
+  color:#270607;
+  font-family: "Comic Sans MS", sans-serif;
 }
-@keyframes movealittle {
+@keyframes ginger{
+  0%{
+    position:absolute;
+  top:310px;
+  left:-5px;
+    
+  }
+  50%{
+    transform:translateX(2000px);
+    animation-delay:3s;
+  }
   100%{
-    transform:rotate(30deg);
+    animation-delay:3s;
+    transform:rotateY(180deg);
+    
   }
 }
-#eggs{
-  animation-name:movealittle;
-  animation-duration:3s;
+#gingerbred{
+  animation-name:ginger;
+  animation-duration:5s;
+  animation-directon:alternate;
   animation-iteration-count:infinite;
-  animation-direction:alternate;
-  width:192px;
-  height:117px;
-  position:absolute;
-  top:380px;
-  left:95px;
-  background-image:url("https://cdn.statefoodsafety.com/blog/2014/04/fs_56_05c_02_egg_carton_24_600x-compressor.png");
-  background-size:contain;
+  background-image:url("https://png.pngtree.com/png-vector/20240614/ourmid/pngtree-happy-gingerbread-man-running-fast-png-image_12716451.png");
   background-repeat:no-repeat;
-}
-#next{
   position:absolute;
-  top:130px;
-  left:10px;
-  width:350px;
-  height:30px;
-  font-size:1rem;
+  top:310px;
+  left:5px;
+  width:500px;
+  height:500px;
+  
 }
-#previous{
-  position:absolute;
-  top:130px;
-  left:370px;
-  width:350px;
-  height:30px;
-  font-size:1rem;
-}
-#next:active{
-  width:360px;
-  height:40px;
-  color:red;
-  background-color:white;
-}
-#previous:active{
-  width:360px;
-  height:40px;
-  color:red;
-  background-color:white;
-}
+
+button{
+      position:absolute;
+      top: 223px;
+      left:619px;
+      width:215px;
+      height:60px;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 10px 10px 2px brown;
+      color:brown;
+  font-size:30px;
+  font-family: "Comic Sans MS", sans-serif;}
+button:active{
+      font-size:25px;
+      color:yellow;
+      box-shadow: 10px 10px 2px orange;
+  font-family: "Comic Sans MS", sans-serif;}

@@ -1,0 +1,89 @@
+body{
+  background-image:url("https://t3.ftcdn.net/jpg/03/25/14/06/360_F_325140650_G5CeLqJF2gUsN3QYpEo8WpYGO3uZT0ra.jpg");
+  background-size:100%;
+  
+}
+
+#runningging{
+  animation-name:rungi;
+  animation-duration:2s;
+  animation-iteration-count:1;
+  animation-fill-mode:forwards;
+  position:absolute;
+  top:0px;
+  left:800px;
+}
+
+#fastfoxboi{
+  position:absolute;
+  top:240px;
+  left:1100px;
+  animation-name:rung;
+  animation-duration:2s;
+  animation-iteration-count:1;
+  animation-fill-mode:forwards;
+}
+
+@keyframes rung{
+  0%{
+    transform:translateX(0vw);
+  }
+  90%{
+    opacity:1;
+  }
+  100%{
+    transform:translateX(-850px);
+    opacity:0;
+  }
+}
+@keyframes rungi {
+  0%{
+    transform:translateX(0vw);
+  }
+  90%{
+    opacity:1;
+  }
+  100%{
+    transform:translateX(-700px);
+    opacity:0;
+  }
+}
+
+@keyframes dedginger{
+  0%{
+    opacity:0;
+  }
+  90%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+  
+}
+
+#ded{
+  position:absolute;
+  top:300px;
+  left:40px;
+  opacity:0;
+  animation-name:dedginger;
+  animation-fill-mode:forwards;
+  animation-duration:2s;
+}
+
+#text{
+  position:absolute;
+  background-color:white;
+  font-size:5rem;
+}
+#text2{
+  position:absolute;
+  background-color:white;
+  font-size:5rem;
+  left:379px;
+  opacity:0;
+  animation-name:dedginger;
+  animation-fill-mode:forwards;
+  animation-duration:2s;
+}

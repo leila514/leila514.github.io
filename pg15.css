@@ -1,0 +1,109 @@
+body{
+  background-image:url("https://t3.ftcdn.net/jpg/02/52/25/90/360_F_252259052_VJVoUob3KBPPCnwbKCGsYYrsCS1d519R.jpg");
+  background-size:100%;
+  
+}
+@keyframes rung{
+  0%{
+    transform:translateX(0vw);
+  }
+  100%{
+    transform:translateX(-2000px);
+  }
+}
+#runninggrandma{
+  animation-name:rung;
+  animation-duration:15s;
+  animation-iteration-count:1;
+  animation-fill-mode:forwards;
+  position:absolute;
+  left:650px;
+  top:0px;
+}
+@keyframes rungi {
+  0%{
+    transform:translateX(0vw);
+  }
+  100%{
+    transform:translateX(-1800px);
+  }
+}
+#runningging{
+  animation-name:rungi;
+  animation-duration:2s;
+  animation-iteration-count:1;
+  animation-fill-mode:forwards;
+  position:absolute;
+  top:0px;
+  left:900px;
+}
+
+#storytext{ /*shape outside dont work*/
+  font-size:1.2rem;
+  position:absolute;
+  top:15px;
+  left:8px;
+  background-color:white;
+  width:1000px;
+}
+
+
+#next{
+  position:absolute;
+  top:150px;
+  left:20px;
+  width:250px;
+  height:50px;
+  font-size:1rem;
+}
+#previous{
+  position:absolute;
+  top:150px;
+  left:300px;
+  width:250px;
+  height:50px;
+  font-size:1rem;
+}
+#next:active{
+  width:260px;
+  height:60px;
+  color:red;
+  background-color:white;
+}
+#previous:active{
+  width:260px;
+  height:60px;
+  color:red;
+  background-color:white;
+}
+
+#sun{
+  clip-path:circle(50% at 50% 50%);
+  background-color:#ffe13b;
+  shape-outside: circle(50%);
+  position:absolute;
+  top:30px;
+  right:40px;
+  width:250px;
+  height:250px;
+}
+
+#pigglewiggle{
+  animation-name:rung;
+  animation-duration:10s;
+  animation-iteration-count:1;
+  animation-fill-mode:forwards;
+  position:absolute;
+  top:200px;
+  left:800px;
+}
+
+#moocow{
+  position:absolute;
+  top:220px;
+  left:800px;
+  animation-name:rung;
+  animation-duration:8s;
+  animation-iteration-count:1;
+  animation-fill-mode:forwards;
+}

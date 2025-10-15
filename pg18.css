@@ -1,0 +1,75 @@
+body{
+  background-image:url("https://t3.ftcdn.net/jpg/03/25/14/06/360_F_325140650_G5CeLqJF2gUsN3QYpEo8WpYGO3uZT0ra.jpg");
+  background-size:100%;
+  
+}
+
+/* #barnroof{
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  shape-outside: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  background-color:#af220d;
+  width:500px;
+  height:300px;
+  float:left;
+  
+} */
+
+/* #barnbarn{
+  clip-path: inset(0 1% 0 0);
+  shape-outside: inset(0 1% 0 0);
+  background-color:#af220d;
+  width:450px;
+  height:400px;
+  
+  float:left;
+} */
+
+#moon{
+  clip-path:circle(40% at 50% 50%);
+  background-color:grey;
+  shape-outside: circle(40% at 50% 50%);
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/330px-FullMoon2010.jpg");
+    background-size:110%;
+  /*position:absolute;
+  top:30px;
+  right:40px;*/
+  float:left;
+  width:250px;
+  height:250px;
+  
+}
+
+#text {
+  color:white;
+  font-size:3rem;
+  width:400px;
+}
+
+#theend {
+  color:white;
+  font-size:7rem;
+  width:400px;
+  position:absolute;
+  left: 800px;
+  top:200px;
+}
+
+#ded{
+  position:absolute;
+  top:300px;
+  left:40px;}
+
+#previous{
+  position:absolute;
+  top:345px;
+  left:860px;
+  width:250px;
+  height:50px;
+  font-size:1rem;
+}
+#previous:active{
+  width:260px;
+  height:60px;
+  color:red;
+  background-color:white;
+}

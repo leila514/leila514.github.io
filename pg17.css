@@ -87,3 +87,32 @@ body{
   animation-fill-mode:forwards;
   animation-duration:2s;
 }
+
+#next{
+  position:absolute;
+  top:115px;
+  left:20px;
+  width:250px;
+  height:50px;
+  font-size:1rem;
+}
+#previous{
+  position:absolute;
+  top:115px;
+  left:300px;
+  width:250px;
+  height:50px;
+  font-size:1rem;
+}
+#next:active{
+  width:260px;
+  height:60px;
+  color:red;
+  background-color:white;
+}
+#previous:active{
+  width:260px;
+  height:60px;
+  color:red;
+  background-color:white;
+}
